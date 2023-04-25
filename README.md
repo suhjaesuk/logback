@@ -4,7 +4,7 @@
 Logback 설정을 하여 운영을 하기 위한 Log를 관리하는 방법을 학습합니다.
 
 # 개념
-logback은 SlF4J(Simple Logging Facade for Java) 인터페이스를 구현하는 구현체입다. <br>
+logback은 SlF4J(Simple Logging Facade for Java) 인터페이스를 구현하는 구현체입니다. <br>
 즉, Logging Framework 라고 생각하면 됩니다.
 
 **Appender 종류** <br>
