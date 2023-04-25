@@ -1,0 +1,11 @@
+#logback.classic pattern: [REQUEST1] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [study.logback.LogbackApplication:51] - Starting LogbackApplication using Java 17.0.5 with PID 7340 (C:\Users\sivae\OneDrive\바탕 화면\logback\build\classes\java\main started by sivae in C:\Users\sivae\OneDrive\바탕 화면\logback)
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [study.logback.LogbackApplication:638] - The following 1 profile is active: "prod"
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [o.s.b.w.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [o.apache.catalina.core.StandardService:173] - Starting service [Tomcat]
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [org.apache.catalina.core.StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [o.a.c.c.C.[Tomcat].[localhost].[/]:173] - Initializing Spring embedded WebApplicationContext
+[REQUEST1] [ INFO] 2023-04-25 13:24:42 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 632 ms
+[REQUEST1] [ INFO] 2023-04-25 13:24:43 [main] [o.s.b.w.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+[REQUEST1] [ INFO] 2023-04-25 13:24:43 [main] [study.logback.LogbackApplication:57] - Started LogbackApplication in 1.25 seconds (process running for 1.896)
+#logback.classic pattern: [REQUEST1] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n

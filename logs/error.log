@@ -1,0 +1,9 @@
+#logback.classic pattern: [Error] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+#logback.classic pattern: [Error] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[Error] [ERROR] 2023-04-25 13:39:26 [http-nio-8080-exec-4] [study.logback.controller.DemoController:17] - error
+[Error] [ERROR] 2023-04-25 13:39:26 [http-nio-8080-exec-1] [study.logback.controller.DemoController:17] - error
+[Error] [ERROR] 2023-04-25 13:39:26 [http-nio-8080-exec-3] [study.logback.controller.DemoController:17] - error
+[Error] [ERROR] 2023-04-25 13:39:27 [http-nio-8080-exec-2] [study.logback.controller.DemoController:17] - error
+#logback.classic pattern: [Error] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+#logback.classic pattern: [Error] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+#logback.classic pattern: [Error] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n

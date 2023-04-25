@@ -1,0 +1,23 @@
+#logback.classic pattern: [REQUEST2] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+[REQUEST2] [ INFO] 2023-04-25 13:25:20 [main] [study.logback.LogbackApplication:51] - Starting LogbackApplication using Java 17.0.5 with PID 15388 (C:\Users\sivae\OneDrive\바탕 화면\logback\build\classes\java\main started by sivae in C:\Users\sivae\OneDrive\바탕 화면\logback)
+[REQUEST2] [ INFO] 2023-04-25 13:25:20 [main] [study.logback.LogbackApplication:638] - The following 1 profile is active: "prod"
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [o.s.b.w.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [o.apache.catalina.core.StandardService:173] - Starting service [Tomcat]
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [org.apache.catalina.core.StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [o.a.c.c.C.[Tomcat].[localhost].[/]:173] - Initializing Spring embedded WebApplicationContext
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 624 ms
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [o.s.b.w.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+[REQUEST2] [ INFO] 2023-04-25 13:25:21 [main] [study.logback.LogbackApplication:57] - Started LogbackApplication in 1.249 seconds (process running for 1.883)
+[REQUEST2] [ INFO] 2023-04-25 13:25:56 [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[REQUEST2] [ INFO] 2023-04-25 13:25:56 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+[REQUEST2] [ INFO] 2023-04-25 13:25:56 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet:554] - Completed initialization in 1 ms
+[REQUEST2] [ INFO] 2023-04-25 13:25:56 [http-nio-8080-exec-1] [study.logback.controller.DemoController:15] - info
+[REQUEST2] [ WARN] 2023-04-25 13:25:56 [http-nio-8080-exec-1] [study.logback.controller.DemoController:16] - warn
+[REQUEST2] [ERROR] 2023-04-25 13:25:56 [http-nio-8080-exec-1] [study.logback.controller.DemoController:17] - error
+[REQUEST2] [ INFO] 2023-04-25 13:25:56 [http-nio-8080-exec-6] [study.logback.controller.DemoController:15] - info
+[REQUEST2] [ WARN] 2023-04-25 13:25:56 [http-nio-8080-exec-6] [study.logback.controller.DemoController:16] - warn
+[REQUEST2] [ERROR] 2023-04-25 13:25:56 [http-nio-8080-exec-6] [study.logback.controller.DemoController:17] - error
+[REQUEST2] [ INFO] 2023-04-25 13:25:56 [http-nio-8080-exec-3] [study.logback.controller.DemoController:15] - info
+[REQUEST2] [ WARN] 2023-04-25 13:25:56 [http-nio-8080-exec-3] [study.logback.controller.DemoController:16] - warn
+[REQUEST2] [ERROR] 2023-04-25 13:25:56 [http-nio-8080-exec-3] [study.logback.controller.DemoController:17] - error
+#logback.classic pattern: [REQUEST2] [%5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
